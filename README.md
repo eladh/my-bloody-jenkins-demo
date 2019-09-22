@@ -75,6 +75,11 @@ cat config-templates/05-dsl-scripts.yml >> config.yml; sleep 10
 open http://localhost:8080/
 ```
 
+Seems like chucknorris plugin missing let's run: 
+```shell
+docker-compose -f docker-compose-chucknorris.yml up -d
+```
+
 ## Cleaning up
 ```shell
 # Terminate the main project

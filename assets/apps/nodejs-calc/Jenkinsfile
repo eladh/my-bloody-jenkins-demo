@@ -11,6 +11,7 @@ node('cloudbees-tools'){
         }
         stage('archive-tests'){
             junit 'test-results.xml'
+            chuckNorris()
         }
     }
 }

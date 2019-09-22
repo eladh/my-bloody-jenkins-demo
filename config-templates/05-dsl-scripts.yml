@@ -9,11 +9,11 @@ job_dsl_scripts:
             scm{
               git{
                 remote {
-                  url('https://github.com/odavid/my-bloody-jenkins.git')
+                  url('https://github.com/eladh/my-bloody-jenkins-demo.git')
                 }
                 branches("refs/heads/master")
               }
-              scriptPath('demo/assets/apps/' + prj + '-calc/Jenkinsfile')
+              scriptPath('assets/apps/' + prj + '-calc/Jenkinsfile')
             }
           }
         }

@@ -22,6 +22,7 @@ node('generic'){
         }
         stage('archive-tests'){
             junit 'target/surefire-reports/TEST-*.xml'
+	    chuckNorris()
         }
     }
 }
