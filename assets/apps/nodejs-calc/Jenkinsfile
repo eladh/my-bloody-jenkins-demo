@@ -2,7 +2,7 @@ node('cloudbees-tools'){
     stage('checkout'){
         checkout scm
     }
-    dir('demo/assets/apps/nodejs-calc'){
+    dir('assets/apps/nodejs-calc'){
         stage('install-deps'){
             sh 'npm install'
         }
