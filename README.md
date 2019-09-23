@@ -84,4 +84,5 @@ docker-compose -f docker-compose-chucknorris.yml up -d
 ```shell
 # Terminate the main project
 docker-compose down --remove-orphans --volumes
+docker-compose rm jenkins
 ```
